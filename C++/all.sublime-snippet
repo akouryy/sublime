@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[${1:v}.begin(), $1.end()]]></content>
+    <tabTrigger>all</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>

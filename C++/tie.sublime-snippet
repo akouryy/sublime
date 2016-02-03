@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[int ${1:a}, ${2:b}; tie($1, $2) = ${3:p};]]></content>
+    <tabTrigger>tie</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>
