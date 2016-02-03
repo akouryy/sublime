@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[${2:int} ${1:N}; cin >> $1;]]></content>
+    <tabTrigger>in</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>

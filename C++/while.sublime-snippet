@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[while(${1:i <= N}) {
+    ${2:D[i] += x;}
+}]]></content>
+    <tabTrigger>while</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>

@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[vector<vector<${2:int}>> ${1:a}(${3:H}, vector<$2>(${4:W}, ${5:-1}));]]></content>
+    <tabTrigger>vv</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>

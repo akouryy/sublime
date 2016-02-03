@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[vector<vector<pair<int, ${4:int}>>> ${1:path}(${2:N});
+times(${3:M}, i) {
+    int j, k; cin >> j >> k, l;
+    $1[j].push_back({${6:-}l, k});${5:
+    $1[k].push_back({$6l, j});}
+}]]></content>
+    <tabTrigger>ppin</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>

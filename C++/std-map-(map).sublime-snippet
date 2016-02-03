@@ -1,6 +1,3 @@
 <snippet>
-	<description>std::map</description>
-    <content><![CDATA[std::map<${1:key}, ${2:value}> map$0;]]></content>
-    <tabTrigger>map</tabTrigger>
-    <scope>source.c++, source.objc++</scope>
+    <content><![CDATA[$1]]></content>
 </snippet>

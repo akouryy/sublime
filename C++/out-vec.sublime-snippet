@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[times(${1:v}.size(), ${2:i}) cout << ($2?" ":"") << $1[$2];${3: cout ln;}]]></content>
+    <tabTrigger>vout</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>

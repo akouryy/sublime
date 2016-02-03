@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[vector<${4:int}> ${1:X}(${3:N}), ${2:Y}($3); times($3, i) cin >> $1[i] >> $2[i];]]></content>
+    <tabTrigger>vpin</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>

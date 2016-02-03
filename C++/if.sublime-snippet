@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[if(${1:0 <= i && i < N}) {
+    ${2:D[i] = D[i-1];}
+}]]></content>
+    <tabTrigger>if</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>

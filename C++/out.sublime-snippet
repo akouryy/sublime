@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[cout << (${1:N}) ${2:ln};]]></content>
+    <tabTrigger>out</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>

@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[vector<vector<${4:int}>> ${1:path}(${2:N}, vector<$4>($2, INT_MAX));
+times(${3:M}, i) {
+    int j, k, l; cin >> j >> k >> l;
+    $1[j][k] = ${5:$1[k][j] = }l;
+}]]></content>
+    <tabTrigger>pain</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>
