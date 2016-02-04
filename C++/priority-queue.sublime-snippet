@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[priority_queue<${1:pair<${2:int}, ${3:int}>}, vector<$1>${4:, greater<$1>}> ]]></content>
+    <tabTrigger>pq</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>

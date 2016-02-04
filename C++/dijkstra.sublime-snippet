@@ -1,0 +1,21 @@
+<snippet>
+    <content><![CDATA[priority_queue<${1:pair<${2:int}, ${3:int}>}, vector<$1>${4:, greater<$1>}> djk;
+djk.push({${5:0}, ${6:0}});
+vector<$2> costs(${7:N}, ${8:INT_MAX});
+while(!djk.empty()) {
+    $2 cost;
+    $3 idx;
+    tie(cost, idx) = djk.top(); djk.pop();
+    if(costs[idx] == $8) {
+        costs[idx] = cost;
+        for(auto& p : ${9:paths}[idx]) { /* {index, cost} */
+            if(costs[p.first] == $8) {
+                djk.push({cost + p.second, p.first});
+            }
+        }
+    }
+}
+]]></content>
+    <tabTrigger>djk</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>

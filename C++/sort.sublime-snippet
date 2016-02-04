@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[sort(${1:v}.begin(), $1.end()${2:, greater<${3:int}>()});]]></content>
+    <tabTrigger>sort</tabTrigger>
+    <scope>source.c++</scope>
+</snippet>
